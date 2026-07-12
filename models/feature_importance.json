@@ -1,0 +1,38 @@
+{
+  "XGBoost": {
+    "Age": 6.665252294624224e-05,
+    "Time_Since_Bite_Min": 0.00016809241787996143,
+    "Heart_Rate_BPM": 0.025245534256100655,
+    "Blood_Pressure_Systolic": 0.0008138376288115978,
+    "Muscle_Paralysis_Present": 0.00010405277134850621,
+    "Blood_Coagulation_Failure": 0.24048538506031036,
+    "Swelling_Missing": 0.3173793852329254,
+    "Swelling_Level": 0.4156033396720886,
+    "Gender_Male": 6.901514279888943e-05,
+    "Gender_Female": 6.46793851046823e-05
+  },
+  "LightGBM": {
+    "Age": 3831,
+    "Time_Since_Bite_Min": 4565,
+    "Heart_Rate_BPM": 5718,
+    "Blood_Pressure_Systolic": 6464,
+    "Muscle_Paralysis_Present": 110,
+    "Blood_Coagulation_Failure": 95,
+    "Swelling_Missing": 467,
+    "Swelling_Level": 666,
+    "Gender_Male": 266,
+    "Gender_Female": 276
+  },
+  "TabNet": {
+    "Age": 0.010008716727950746,
+    "Time_Since_Bite_Min": 0.02203490804870877,
+    "Heart_Rate_BPM": 0.21318140751770007,
+    "Blood_Pressure_Systolic": 0.10248388163794157,
+    "Muscle_Paralysis_Present": 0.08200127119415224,
+    "Blood_Coagulation_Failure": 0.11183635773882288,
+    "Swelling_Missing": 0.052451154621867245,
+    "Swelling_Level": 0.25645383603668254,
+    "Gender_Male": 0.04789910801936126,
+    "Gender_Female": 0.10164935845681287
+  }
+}

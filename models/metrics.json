@@ -1,0 +1,209 @@
+{
+  "XGBoost": {
+    "accuracy": 0.99699,
+    "macro_f1": 0.9965455811441231,
+    "report": {
+      "Harmless_Insect": {
+        "precision": 0.9946125930637135,
+        "recall": 0.9978730059430716,
+        "f1-score": 0.9962401319076646,
+        "support": 79925.0
+      },
+      "Scorpion": {
+        "precision": 0.9942945361793529,
+        "recall": 0.9856277862798589,
+        "f1-score": 0.9899421926688274,
+        "support": 30058.0
+      },
+      "Viper_Snake": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 59986.0
+      },
+      "Black_Widow_Spider": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30031.0
+      },
+      "accuracy": 0.99699,
+      "macro avg": {
+        "precision": 0.9972267823107666,
+        "recall": 0.9958751980557327,
+        "f1-score": 0.9965455811441231,
+        "support": 200000.0
+      },
+      "weighted avg": {
+        "precision": 0.9969895833454815,
+        "recall": 0.99699,
+        "f1-score": 0.9969858748497986,
+        "support": 200000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        79755,
+        170,
+        0,
+        0
+      ],
+      [
+        432,
+        29626,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59986,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30031
+      ]
+    ]
+  },
+  "LightGBM": {
+    "accuracy": 0.974765,
+    "macro_f1": 0.9660673869084209,
+    "report": {
+      "Harmless_Insect": {
+        "precision": 0.9819669891578385,
+        "recall": 0.9892649358773851,
+        "f1-score": 0.9856024531923911,
+        "support": 79925.0
+      },
+      "Scorpion": {
+        "precision": 0.9367105482419597,
+        "recall": 0.9350588861534367,
+        "f1-score": 0.935883988478764,
+        "support": 30058.0
+      },
+      "Viper_Snake": {
+        "precision": 0.993885585057375,
+        "recall": 0.9890641149601573,
+        "f1-score": 0.9914689883941478,
+        "support": 59986.0
+      },
+      "Black_Widow_Spider": {
+        "precision": 0.9553070749806923,
+        "recall": 0.9473544004528653,
+        "f1-score": 0.9513141175683809,
+        "support": 30031.0
+      },
+      "accuracy": 0.974765,
+      "macro avg": {
+        "precision": 0.9669675493594664,
+        "recall": 0.9651855843609611,
+        "f1-score": 0.9660673869084209,
+        "support": 200000.0
+      },
+      "weighted avg": {
+        "precision": 0.9747370237074697,
+        "recall": 0.974765,
+        "f1-score": 0.9747412499980196,
+        "support": 200000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        79067,
+        704,
+        85,
+        69
+      ],
+      [
+        640,
+        28106,
+        96,
+        1216
+      ],
+      [
+        310,
+        300,
+        59330,
+        46
+      ],
+      [
+        502,
+        895,
+        184,
+        28450
+      ]
+    ]
+  },
+  "TabNet": {
+    "accuracy": 0.996965,
+    "macro_f1": 0.9965087306642177,
+    "report": {
+      "Harmless_Insect": {
+        "precision": 0.9940701614510664,
+        "recall": 0.9983859868626838,
+        "f1-score": 0.9962233999388254,
+        "support": 79925.0
+      },
+      "Scorpion": {
+        "precision": 0.9955913037625361,
+        "recall": 0.984197218710493,
+        "f1-score": 0.9898614735996788,
+        "support": 30058.0
+      },
+      "Viper_Snake": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 59986.0
+      },
+      "Black_Widow_Spider": {
+        "precision": 1.0,
+        "recall": 0.9999001032266658,
+        "f1-score": 0.9999500491183669,
+        "support": 30031.0
+      },
+      "accuracy": 0.996965,
+      "macro avg": {
+        "precision": 0.9974153663034007,
+        "recall": 0.9956208271999606,
+        "f1-score": 0.9965087306642177,
+        "support": 200000.0
+      },
+      "weighted avg": {
+        "precision": 0.9969677053123541,
+        "recall": 0.996965,
+        "f1-score": 0.9969595566932171,
+        "support": 200000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        79796,
+        129,
+        0,
+        0
+      ],
+      [
+        475,
+        29583,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59986,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        30028
+      ]
+    ]
+  }
+}

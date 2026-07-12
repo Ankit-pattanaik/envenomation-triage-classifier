@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Data (too large / not for version control) ---
+silent_sting_triage_data.csv
+*.parquet
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Secrets ---
+.env
+*.key
+
+# NOTE: the models/ folder IS committed (the trained artifacts are small,
+# a few MB total, so collaborators can run the app without retraining).
+# If you'd rather keep the repo lean, uncomment the next two lines:
+# models/*.joblib
+# models/*.zip
